@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+}
+
+body {
+    background: #DAF0FF;
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    background: linear-gradient(191.34deg, #17181A -4.95%, #17181A 103.74%);
+    border-radius: 39px;
+    width: 375px;
+    height: 568px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    padding: 20px; /* espaçamento interno */
+}
+
+input {
+    font-size: 48px;
+    grid-column: 1 / 5;
+    grid-row: 1 / 3;
+    background: #17181A;
+    border: none; /* borda */
+    outline: none; /*  */
+    text-align: right; /* lado do texto */
+    padding-top: 50px;
+}
+
+button {
+    font-size: 24px; /* tamanho da letra*/
+    border-radius: 16px;
+    border: none; /* bordinha */
+    margin: 10px; /* distancia dos lados */
+    cursor: pointer; /* maozinha */
+}
+
+button:hover {
+    opacity: 0.8; /* transparencia do botao */
+
+}
+
+button:active {
+    opacity: 0.8; /* transparencia do botao */
+}
+
+p {
+    font-size: 60px;
+    grid-column: 1 / 5;
+    grid-row: 1 / 3;
+    text-align: right; /* alinhar texto*/
+    display: grid;
+    align-items: end;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.6;
+}
+
+.black-button {
+    background: #303136;
+}
+
+.blue-button {
+    background: orange;
+}
+
+.equal-button {
+    background: goldenrod;
+}
+
+.gray-button {
+    background: #616161;
+}
+
+.zero {
+    grid-column: 1 / 3;
+}
+
+.igual {
+    grid-row: 6 / 8;
+    grid-column: 4 / 5;
+}
+
